@@ -1,0 +1,177 @@
+{
+  "ultima_atualizacao": "2026-11-14 20:18",
+  "fonte_oficial": "https://www.cmbalsas.ma.gov.br",
+  "vereadores": [
+    {
+      "id": 17,
+      "nome": "Paulo Junior",
+      "partido": "Presidente",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/17"
+    },
+    {
+      "id": 64,
+      "nome": "Guilherme Leão Dall'agnol",
+      "partido": "1º Vice-Presidente",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/64"
+    },
+    {
+      "id": 62,
+      "nome": "Carmem Eleticia",
+      "partido": "2ª Vice-Presidente",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/62"
+    },
+    {
+      "id": 63,
+      "nome": "Dayanara Miranda",
+      "partido": "1ª Secretária",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/63"
+    },
+    {
+      "id": 65,
+      "nome": "Rafael Nunes",
+      "partido": "2º Secretário",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/65"
+    },
+    {
+      "id": 23,
+      "nome": "Arnaldo Gomes",
+      "partido": "Vereador",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/23"
+    },
+    {
+      "id": 11,
+      "nome": "Peti Cordeiro",
+      "partido": "Vereador",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/11"
+    },
+    {
+      "id": 66,
+      "nome": "Greysson Carvalho",
+      "partido": "Vereador",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/66"
+    },
+    {
+      "id": 67,
+      "nome": "Hélio Tivi",
+      "partido": "Vereador",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/67"
+    },
+    {
+      "id": 68,
+      "nome": "Higino Neto",
+      "partido": "Vereador",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/68"
+    },
+    {
+      "id": 69,
+      "nome": "Isaura Ferreira",
+      "partido": "Vereadora",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/69"
+    },
+    {
+      "id": 70,
+      "nome": "Jeone Duarte",
+      "partido": "Vereador",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/70"
+    },
+    {
+      "id": 71,
+      "nome": "Priscila Caraça",
+      "partido": "Vereadora",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/71"
+    },
+    {
+      "id": 72,
+      "nome": "Nonato Nogueira",
+      "partido": "Vereador",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/72"
+    },
+    {
+      "id": 73,
+      "nome": "Salmi Nicaretta",
+      "partido": "Vereador",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/73"
+    },
+    {
+      "id": 57,
+      "nome": "Tiago Pankadão",
+      "partido": "Vereador",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/57"
+    },
+    {
+      "id": 74,
+      "nome": "Valmir Homem do Campo",
+      "partido": "Vereador",
+      "leis": 0,
+      "indicacoes": 0,
+      "homenagens": 0,
+      "presenca": "98%",
+      "sapl_url": "https://www.cmbalsas.ma.gov.br/vereadores/74"
+    }
+  ],
+  "proposicoes": []
+}
