@@ -1,0 +1,35 @@
+name: Atualizar Dados Radar Balsas
+
+on:
+  schedule:
+    - cron: '0 9 * * *' # Roda todo dia às 06:00 (horário de Brasília)
+  workflow_dispatch: # Permite rodar manualmente com 1 clique
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar bibliotecas
+        run: pip install requests beautifulsoup4
+
+      - name: Executar raspagem da Câmara de Balsas
+        run: python atualizar_dados.py
+
+      - name: Salvar dados.json atualizado
+        run: |
+          git config user.name "Radar Balsas Bot"
+          git config user.email "bot@radarbalsas.local"
+          git add dados.json
+          git diff --staged --quiet || git commit -m "Atualização automática dos dados legislativos"
+          git push
