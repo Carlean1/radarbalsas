@@ -1,0 +1,1966 @@
+{
+  "competencia": "JANEIRO/2026",
+  "fonte": "https://www.cmbalsas.ma.gov.br/recursoshumanos",
+  "resumo": {
+    "total_servidores": 215,
+    "total_bruto": 841981.62,
+    "total_descontos": 205567.77,
+    "total_liquido": 636413.85,
+    "por_vinculo": {
+      "ELETIVOS": {
+        "qtd": 18,
+        "ativos_remunerados": 17,
+        "subsidio_bruto_unitario": 17387.32,
+        "total_bruto": 295584.44,
+        "total_liquido": 179722.11
+      },
+      "COMISSIONADOS": {
+        "qtd": 184,
+        "total_bruto": 409918.92,
+        "total_liquido": 372956.9
+      },
+      "EFETIVOS": {
+        "qtd": 13,
+        "total_bruto": 136478.26,
+        "total_liquido": 83734.84
+      }
+    }
+  },
+  "servidores": [
+    {
+      "nome": "ADAO GUIDA FEITOSA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000116",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "ADRIANA ALBUQUERQUE DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000379",
+      "remuneracao": 1780.32,
+      "descontos": 118.32,
+      "liquido": 1662.0
+    },
+    {
+      "nome": "ADRIETE CARDOSO DE SOUSA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000966",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "ALAN JONES BATISTA MARTINS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000384",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "ALANE BARROS PEREIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000956",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "ALDINEIDE PEREIRA MARTINS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000432",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "ALEXANDRO BARBOSA MONTELO",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000764",
+      "remuneracao": 0.0,
+      "descontos": 0.0,
+      "liquido": 0.0
+    },
+    {
+      "nome": "ALICE REGINA TORQUETTI",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000687",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "ALZERINA DE CASSIA OLIVEIRA DE SOUSA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE DE COMUNICAÇÃO",
+      "matricula": "0000000842",
+      "remuneracao": 1893.24,
+      "descontos": 146.07,
+      "liquido": 1747.17
+    },
+    {
+      "nome": "AMANDA MARIA SANTOS DA SILVA E SOUSA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000797",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "AMANDA SILVA DE CARVALHO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "DIRETOR DEP DE PLANEJAMENTO",
+      "matricula": "0000000840",
+      "remuneracao": 2773.43,
+      "descontos": 225.28,
+      "liquido": 2548.15
+    },
+    {
+      "nome": "ANDERSON LIMA DE CARVALHO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000955",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "ANDRE AMARAL DE SOUZA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000765",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "ANGELA MARIA PEREIRA CONCEICAO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000778",
+      "remuneracao": 1645.24,
+      "descontos": 118.32,
+      "liquido": 1526.92
+    },
+    {
+      "nome": "ANGELICA SOUSA DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000419",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "ANTONIEL SENA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000718",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "ANTONIO AFONSO DA CRUZ ALENCAR",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000249",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "ANTONIO ALENCAR DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000951",
+      "remuneracao": 1800.0,
+      "descontos": 137.68,
+      "liquido": 1662.32
+    },
+    {
+      "nome": "ANTONIO VIEIRA FILHO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000756",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "ARAO LIMA LOPES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "DIRETOR DEP SERVICOS GERAIS",
+      "matricula": "0000000271",
+      "remuneracao": 2773.43,
+      "descontos": 225.28,
+      "liquido": 2548.15
+    },
+    {
+      "nome": "ARNALDO DOS SANTOS SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000916",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "ARNALDO GOMES DE SOUSA",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000256",
+      "remuneracao": 17387.32,
+      "descontos": 11122.41,
+      "liquido": 6264.91
+    },
+    {
+      "nome": "BARBARA GOMES NEVES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000937",
+      "remuneracao": 1867.54,
+      "descontos": 137.68,
+      "liquido": 1729.86
+    },
+    {
+      "nome": "BETANHA MARIA LOPES DE MELO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000821",
+      "remuneracao": 2094.98,
+      "descontos": 152.07,
+      "liquido": 1942.91
+    },
+    {
+      "nome": "CARLA PEREIRA DE ALENCAR",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE IMPRENSA",
+      "matricula": "0000000839",
+      "remuneracao": 2293.31,
+      "descontos": 182.07,
+      "liquido": 2111.24
+    },
+    {
+      "nome": "CARMEM ELETICIA OLIVEIRA RODRIGUES",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000257",
+      "remuneracao": 17387.32,
+      "descontos": 4589.13,
+      "liquido": 12798.19
+    },
+    {
+      "nome": "CASSIO DE OLIVEIRA NASCIMENTO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000774",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "CAUE ANTONIO DE SOUSA ROSA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000985",
+      "remuneracao": 1525.11,
+      "descontos": 114.38,
+      "liquido": 1410.73
+    },
+    {
+      "nome": "CELSO NOGUEIRA DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "DIRETOR DE MANUTENÇÃO DE TRANSPORTES",
+      "matricula": "0000000131",
+      "remuneracao": 2751.96,
+      "descontos": 223.35,
+      "liquido": 2528.61
+    },
+    {
+      "nome": "CESAR AUGUSTO DANELLI JUNIOR",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000799",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "CLERISTON SOUSA VIANA",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000920",
+      "remuneracao": 17387.32,
+      "descontos": 4589.13,
+      "liquido": 12798.19
+    },
+    {
+      "nome": "CONSTANCIA DA SILVA SANTOS FONSECA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE DE COMUNICAÇÃO",
+      "matricula": "0000000324",
+      "remuneracao": 1960.78,
+      "descontos": 146.07,
+      "liquido": 1814.71
+    },
+    {
+      "nome": "CRISTIANO DANTAS REGO COELHO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "PROCURADOR",
+      "matricula": "0000000845",
+      "remuneracao": 7702.1,
+      "descontos": 1742.92,
+      "liquido": 5959.18
+    },
+    {
+      "nome": "DALVINA PEREIRA DE ANDRADE",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000726",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "DANIEL LOPES ALVES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000745",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "DANILLO ALENCAR DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000788",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "DAVID ISMAEL COELHO NETTO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE DE COMISSÃO EM LICITAÇÃO",
+      "matricula": "0000000802",
+      "remuneracao": 1893.24,
+      "descontos": 146.07,
+      "liquido": 1747.17
+    },
+    {
+      "nome": "DAVID PEREIRA DA SILVA JUNIOR",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000295",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "DAYANARA SANTANA MIRANDA",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000735",
+      "remuneracao": 17387.32,
+      "descontos": 6132.34,
+      "liquido": 11254.98
+    },
+    {
+      "nome": "DEBORAH DA SILVA RODRIGUES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000808",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "DEDITE LOPES DE CARVALHO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000277",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "DENISE FREITAS ALVES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000035",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "DEUSVAL TRAJANO DE SOUZA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE DE FISCALIZAÇÃO DE CONTRATOS",
+      "matricula": "0000000801",
+      "remuneracao": 4000.0,
+      "descontos": 368.58,
+      "liquido": 3631.42
+    },
+    {
+      "nome": "DIEGO SILVA SANTOS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000033",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "DINALVA MESQUITA COSTA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000740",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "DOUGLAS SANTOS DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000307",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "EDGAR DA SILVA LOPES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000285",
+      "remuneracao": 1712.78,
+      "descontos": 118.32,
+      "liquido": 1594.46
+    },
+    {
+      "nome": "EDILANE DE SOUSA ARAUJO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000809",
+      "remuneracao": 1645.24,
+      "descontos": 118.32,
+      "liquido": 1526.92
+    },
+    {
+      "nome": "EDMILSON DA SILVA CARDOSO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CONTADOR",
+      "matricula": "0000000822",
+      "remuneracao": 9000.0,
+      "descontos": 2282.62,
+      "liquido": 6717.38
+    },
+    {
+      "nome": "EDUARDO COSTA DOS SANTOS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000943",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "ELANES DA SILVA OLIVEIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000969",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "ELCIONE PEREIRA DOS REIS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000236",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "ELIENE VIEIRA CASTELO BRANCO ARAUJO",
+      "vinculo": "EFETIVOS",
+      "cargo": "TECNICO LEGISLATIVO NIVEL II I",
+      "matricula": "0000000028",
+      "remuneracao": 14019.14,
+      "descontos": 5990.71,
+      "liquido": 8028.43
+    },
+    {
+      "nome": "ELISANGELA DOS SANTOS SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000722",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "ENEDIMAR SILVA",
+      "vinculo": "EFETIVOS",
+      "cargo": "TECNICO LEGISLATIVO NIVEL II H",
+      "matricula": "0000000034",
+      "remuneracao": 8827.23,
+      "descontos": 2235.11,
+      "liquido": 6592.12
+    },
+    {
+      "nome": "ENEDINA CARREIRO AMORIM",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000748",
+      "remuneracao": 1867.54,
+      "descontos": 137.68,
+      "liquido": 1729.86
+    },
+    {
+      "nome": "ERCILIA FRAZAO LOPES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000486",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "ERINEIDE SANTOS DE CARVALHO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000736",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "EUNETE NUNES DA SILVA BARROS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000804",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "EURICARLA DUARTE FERREIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000964",
+      "remuneracao": 2162.52,
+      "descontos": 152.07,
+      "liquido": 2010.45
+    },
+    {
+      "nome": "EVANUSIA BARROS FERREIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CONTROLADOR",
+      "matricula": "0000000864",
+      "remuneracao": 5501.5,
+      "descontos": 673.99,
+      "liquido": 4827.51
+    },
+    {
+      "nome": "FABIANO SILVA SANTOS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000689",
+      "remuneracao": 2446.19,
+      "descontos": 552.45,
+      "liquido": 1893.74
+    },
+    {
+      "nome": "FABIO SANTOS DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000729",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "FABYANE PEREIRA DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000690",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "FERNANDA COSTA SOUSA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000760",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "FERNANDO SANTANA DOS SANTOS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000814",
+      "remuneracao": 1800.0,
+      "descontos": 137.68,
+      "liquido": 1662.32
+    },
+    {
+      "nome": "FRANCISCA SILVA DOS SANTOS",
+      "vinculo": "EFETIVOS",
+      "cargo": "TECNICO LEGISLATIVO NIVEL II I",
+      "matricula": "0000000038",
+      "remuneracao": 10017.31,
+      "descontos": 2562.38,
+      "liquido": 7454.93
+    },
+    {
+      "nome": "FRANCISCO DE FRANCO MOURA DE SA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "DIRETOR DEP COMPRAS E ORCAMENTO",
+      "matricula": "0000000150",
+      "remuneracao": 2773.43,
+      "descontos": 225.28,
+      "liquido": 2548.15
+    },
+    {
+      "nome": "FRANCISCO MARTINS MAIA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000777",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "GEORGINIA LUCIA LOPES E SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "OUVIDOR",
+      "matricula": "0000000930",
+      "remuneracao": 1867.54,
+      "descontos": 137.68,
+      "liquido": 1729.86
+    },
+    {
+      "nome": "GIAN VIEIRA LIMA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000720",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "GILVAN DOS SANTOS RIBEIRO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000944",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "GILZA DA SILVA RODRIGUES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000370",
+      "remuneracao": 1800.0,
+      "descontos": 137.68,
+      "liquido": 1662.32
+    },
+    {
+      "nome": "GIZELDA FEITOSA BOTELHO",
+      "vinculo": "EFETIVOS",
+      "cargo": "AUXILIAR LEGISLATIVO NIVEL II I",
+      "matricula": "0000000052",
+      "remuneracao": 3976.65,
+      "descontos": 1739.84,
+      "liquido": 2236.81
+    },
+    {
+      "nome": "GREYSSON DA SILVA CARVALHO",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000784",
+      "remuneracao": 17387.32,
+      "descontos": 4484.86,
+      "liquido": 12902.46
+    },
+    {
+      "nome": "GUILHERME DALL AGNOL",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000261",
+      "remuneracao": 17387.32,
+      "descontos": 4589.13,
+      "liquido": 12798.19
+    },
+    {
+      "nome": "HALISSON REIS DUARTE",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000965",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "HELIO SOUSA NETO",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000783",
+      "remuneracao": 17387.32,
+      "descontos": 11190.32,
+      "liquido": 6197.0
+    },
+    {
+      "nome": "HERMILTON BARBOSA LIMA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000941",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "HIGINO LOPES DOS SANTOS NETO",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000727",
+      "remuneracao": 17387.32,
+      "descontos": 4537.0,
+      "liquido": 12850.32
+    },
+    {
+      "nome": "HUMBERTO SOARES SANTOS",
+      "vinculo": "EFETIVOS",
+      "cargo": "TECNICO LEGISLATIVO NIVEL II K",
+      "matricula": "0000000044",
+      "remuneracao": 8192.38,
+      "descontos": 1979.65,
+      "liquido": 6212.73
+    },
+    {
+      "nome": "HYDELSHARA WALERIA MARTINS COSTA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000794",
+      "remuneracao": 1712.78,
+      "descontos": 118.32,
+      "liquido": 1594.46
+    },
+    {
+      "nome": "IANE VIEIRA MIRANDA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000706",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "IOLANDA MARIA TEIXEIRA REIS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000807",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "ISAURA FERREIRA OLIVEIRA",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000012",
+      "remuneracao": 17387.32,
+      "descontos": 4589.13,
+      "liquido": 12798.19
+    },
+    {
+      "nome": "ISTOESIO ARAUJO DOS SANTOS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000792",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "ITAMAR JOSE BRASILEIRO JUNIOR",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000928",
+      "remuneracao": 1800.0,
+      "descontos": 137.68,
+      "liquido": 1662.32
+    },
+    {
+      "nome": "JAKELINE CAMARGO CARACA FONTES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000865",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "JANAINA BARBOSA DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "DIRETOR ADMINISTRATIVO ADJUNTO",
+      "matricula": "0000000317",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "JANIO SOARES DOS SANTOS JUNIOR",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000968",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "JEFFERSON DIEGO RIBEIRO DE CASTRO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000406",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "JEFFERSON VIANA DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000763",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "JENIFER MAIARA LACERDA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000305",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "JEONE DUARTE PEREIRA",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000703",
+      "remuneracao": 17387.32,
+      "descontos": 4589.13,
+      "liquido": 12798.19
+    },
+    {
+      "nome": "JESSICA APARECIDA NETO DA SILVA PIRES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABIBETE DA PRESIDENCIA",
+      "matricula": "0000000112",
+      "remuneracao": 4622.41,
+      "descontos": 448.63,
+      "liquido": 4173.78
+    },
+    {
+      "nome": "JOAO ANTONIO PEREIRA DE FIGUEREDO SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000773",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "JOAO CARVALHO DOS SANTOS NETO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000811",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "JOAO COELHO DE SOUSA NETO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "DIRETOR DO DEP DE RECURSOS HUMANOS",
+      "matricula": "0000000942",
+      "remuneracao": 2773.43,
+      "descontos": 225.28,
+      "liquido": 2548.15
+    },
+    {
+      "nome": "JOAO JORGE SAD KYK",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000851",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "JOAO OLIVEIRA DE ALENCAR NETO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000749",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "JOAQUINA LUISA ALVES FONSECA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000366",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "JOEL DE SOUSA SANTANA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "DIRETOR ADMINISTRATIVO",
+      "matricula": "0000000209",
+      "remuneracao": 4951.35,
+      "descontos": 494.69,
+      "liquido": 4456.66
+    },
+    {
+      "nome": "JOEL RODRIGUES DE SOUZA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000828",
+      "remuneracao": 1800.0,
+      "descontos": 137.68,
+      "liquido": 1662.32
+    },
+    {
+      "nome": "JOELSON NASCIMENTO SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "DIRETOR DEP DE PATRIMONIO",
+      "matricula": "0000000831",
+      "remuneracao": 2773.43,
+      "descontos": 225.28,
+      "liquido": 2548.15
+    },
+    {
+      "nome": "JOSE CARLOS SILVA NASCIMENTO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000371",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "JOSE DE SORDI DA SILVA SANTOS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000820",
+      "remuneracao": 1800.0,
+      "descontos": 137.68,
+      "liquido": 1662.32
+    },
+    {
+      "nome": "JOSE EMILIANO MATOS BEZERRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000333",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "JOSE ERISMAR DA SILVA RODRIGUES",
+      "vinculo": "EFETIVOS",
+      "cargo": "TECNICO LEGISLATIVO NIVEL II I",
+      "matricula": "0000000053",
+      "remuneracao": 12263.56,
+      "descontos": 3780.96,
+      "liquido": 8482.6
+    },
+    {
+      "nome": "JOSE MARIA PEREIRA DE SOUZA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000266",
+      "remuneracao": 2094.98,
+      "descontos": 152.07,
+      "liquido": 1942.91
+    },
+    {
+      "nome": "JOSE WILSON MOURA DOS SANTOS JUNIOR",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CONTROLADOR",
+      "matricula": "0000000935",
+      "remuneracao": 5501.5,
+      "descontos": 631.33,
+      "liquido": 4870.17
+    },
+    {
+      "nome": "JOZIEL FERREIRA DE OLIVEIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000954",
+      "remuneracao": 1712.78,
+      "descontos": 118.32,
+      "liquido": 1594.46
+    },
+    {
+      "nome": "JULIANA COSTA MENDES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "DIRETOR DE DEPATAMENTO APOIO PARLAMENTAR",
+      "matricula": "0000000124",
+      "remuneracao": 2773.43,
+      "descontos": 225.28,
+      "liquido": 2548.15
+    },
+    {
+      "nome": "JULIANNE GABRYELLE SILVA NASCIMENTO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000959",
+      "remuneracao": 1867.54,
+      "descontos": 137.68,
+      "liquido": 1729.86
+    },
+    {
+      "nome": "JUNARA RIBEIRO BOTELHO",
+      "vinculo": "EFETIVOS",
+      "cargo": "TECNICO LEGISLATIVO NIVEL II I",
+      "matricula": "0000000055",
+      "remuneracao": 10153.45,
+      "descontos": 6331.63,
+      "liquido": 3821.82
+    },
+    {
+      "nome": "KAIO CESAR ARAUJO SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000957",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "KALENNE DE JESUS COELHO MIRANDA PEREIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000813",
+      "remuneracao": 1712.78,
+      "descontos": 118.32,
+      "liquido": 1594.46
+    },
+    {
+      "nome": "KALINNE MENDES DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000439",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "KAROLAINE RIBEIRO LEAL CARDOSO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000816",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "KAUE FIALHO BONFIM",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000426",
+      "remuneracao": 1800.0,
+      "descontos": 137.68,
+      "liquido": 1662.32
+    },
+    {
+      "nome": "KEYLLANY BRANDAO MORAIS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR JURIDICO",
+      "matricula": "0000000923",
+      "remuneracao": 2000.0,
+      "descontos": 155.68,
+      "liquido": 1844.32
+    },
+    {
+      "nome": "LAILON FERREIRA DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000752",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "LARA ALVES RIBEIRO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000926",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "LAYRA OHANNA NETO RIBEIRO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000755",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "LENARIA NORONHA SOUSA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000744",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "LETICIA ARAUJO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000767",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "LIVIA KELLY CASTRO SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE DA 1 SECRETARIA",
+      "matricula": "0000000739",
+      "remuneracao": 2773.43,
+      "descontos": 225.28,
+      "liquido": 2548.15
+    },
+    {
+      "nome": "LIVIA MOROCCOLO NOGUEIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000716",
+      "remuneracao": 1800.0,
+      "descontos": 137.68,
+      "liquido": 1662.32
+    },
+    {
+      "nome": "LIZALDA COIMBRA DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000938",
+      "remuneracao": 1645.24,
+      "descontos": 118.32,
+      "liquido": 1526.92
+    },
+    {
+      "nome": "LUANA FERREIRA DE SOUZA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000835",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "LUANA SANTOS PEREIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000970",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "LUCIANA BATISTA MARTINS ORTEGAL",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000232",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "LUCIARA TEIXEIRA DA SILVA DIAS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000962",
+      "remuneracao": 2094.98,
+      "descontos": 152.07,
+      "liquido": 1942.91
+    },
+    {
+      "nome": "LUIS FILHO NETO MARTINS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000772",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "LUIS HENRIQUE PEREIRA RAMALHO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000304",
+      "remuneracao": 1800.0,
+      "descontos": 137.68,
+      "liquido": 1662.32
+    },
+    {
+      "nome": "LUSIVANIA CARDOSO DE MORAIS PIRES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000165",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "LUZIA CARVALHO MENDES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "DIRETOR DEP DOC E INFORMATICA",
+      "matricula": "0000000841",
+      "remuneracao": 2773.43,
+      "descontos": 225.28,
+      "liquido": 2548.15
+    },
+    {
+      "nome": "MAIANE DA SILVA PEREIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000414",
+      "remuneracao": 1847.86,
+      "descontos": 118.32,
+      "liquido": 1729.54
+    },
+    {
+      "nome": "MARCELA SOARES COELHO GALVAO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000757",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "MARCELLA COELHO PINTO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DO SETOR DE TRANSPORTES",
+      "matricula": "0000000110",
+      "remuneracao": 2117.54,
+      "descontos": 166.25,
+      "liquido": 1951.29
+    },
+    {
+      "nome": "MARCELO DOS SANTOS SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000972",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "MARCIA CAMELO DE CARVALHO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000823",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "MARCIA MARIA BARBOSA CARVALHO ROCHA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000758",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "MARCIA RIBEIRO DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000693",
+      "remuneracao": 2094.98,
+      "descontos": 152.07,
+      "liquido": 1942.91
+    },
+    {
+      "nome": "MARCIEL BOTELHO AZEVEDO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000947",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "MARCOS ANTONIO ABREU DIAS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000812",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "MARCOS AURELIO ALMEIDA REZENDE",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000296",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "MARGARIDA DE ABREU DE OLIVEIRA",
+      "vinculo": "EFETIVOS",
+      "cargo": "TECNICO LEGISLATIVO NIVEL II I",
+      "matricula": "0000000062",
+      "remuneracao": 12209.67,
+      "descontos": 2577.53,
+      "liquido": 9632.14
+    },
+    {
+      "nome": "MARIA BERNADETE COSTA CAPUCHINHO CAMARGO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000779",
+      "remuneracao": 1800.0,
+      "descontos": 137.68,
+      "liquido": 1662.32
+    },
+    {
+      "nome": "MARIA CLARA LOPES DE CASTRO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000796",
+      "remuneracao": 1800.0,
+      "descontos": 137.68,
+      "liquido": 1662.32
+    },
+    {
+      "nome": "MARIA DA GRAÇA GOMES NEVES",
+      "vinculo": "EFETIVOS",
+      "cargo": "AUXILIAR LEGISLATIVO NIVEL II I",
+      "matricula": "0000000057",
+      "remuneracao": 4214.23,
+      "descontos": 1165.96,
+      "liquido": 3048.27
+    },
+    {
+      "nome": "MARIA DE FATIMA DOURADO DA SILVA",
+      "vinculo": "EFETIVOS",
+      "cargo": "TECNICO LEGISLATIVO NIVEL II I",
+      "matricula": "0000000059",
+      "remuneracao": 12374.16,
+      "descontos": 5240.21,
+      "liquido": 7133.95
+    },
+    {
+      "nome": "MARIA DE NAZARE MONTEIRO SODRE",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000818",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "MARIA DO ESPIRITO SANTO COELHO CARDOSO SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000456",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "MARIA FERNANDA DE CASTRO NUNES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000819",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "MARIA FIRME BASTOS NETA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000335",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "MARIA PATRICIA MORAES DOS SANTOS ARAUJO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000958",
+      "remuneracao": 1867.54,
+      "descontos": 137.68,
+      "liquido": 1729.86
+    },
+    {
+      "nome": "MARIA ROSA DIAS MARTINS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "DIRETORA DA PROCURADORIA DA MULHER",
+      "matricula": "0000000934",
+      "remuneracao": 2773.43,
+      "descontos": 225.28,
+      "liquido": 2548.15
+    },
+    {
+      "nome": "MAURICIO DA SILVA LIMA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000272",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "MOACIR NONATO ROCHA JUNIOR",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000793",
+      "remuneracao": 2094.98,
+      "descontos": 152.07,
+      "liquido": 1942.91
+    },
+    {
+      "nome": "NATALIA GIMENES DE SOUZA MARTINS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "SECRETARIO DE PLENARIO",
+      "matricula": "0000000242",
+      "remuneracao": 3328.13,
+      "descontos": 287.96,
+      "liquido": 3040.17
+    },
+    {
+      "nome": "OCIRENE NONATA ROCHA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000953",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "PABLO HENRIQUE SILVA DA COSTA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000160",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "PALOMA COELHO GOMES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000925",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "PATRICIA DOS REIS BARBOSA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000738",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "PATRICIA FONSECA DE MOURA",
+      "vinculo": "EFETIVOS",
+      "cargo": "TECNICO LEGISLATIVO NIVEL II K",
+      "matricula": "0000000069",
+      "remuneracao": 12620.02,
+      "descontos": 5089.46,
+      "liquido": 7530.56
+    },
+    {
+      "nome": "PAULO DOS SANTOS BOTELHO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000843",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "PAULO EDUARDO COELHO JUNIOR",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000015",
+      "remuneracao": 17387.32,
+      "descontos": 4537.0,
+      "liquido": 12850.32
+    },
+    {
+      "nome": "PEDRO JODACI DE SOUSA MIRANDA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000927",
+      "remuneracao": 1645.24,
+      "descontos": 118.32,
+      "liquido": 1526.92
+    },
+    {
+      "nome": "PRISCILA CAMARGO CARACA ALBUQUERQUE",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000791",
+      "remuneracao": 17387.32,
+      "descontos": 4537.0,
+      "liquido": 12850.32
+    },
+    {
+      "nome": "RAFAEL DE SOUSA NUNES",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000262",
+      "remuneracao": 17387.32,
+      "descontos": 8179.88,
+      "liquido": 9207.44
+    },
+    {
+      "nome": "RAFAEL LOPES DE ARAUJO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000299",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "RAFAEL SADAO DOURADO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000409",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "RAIMUNDO NONATO CARDOSO NOGUEIRA",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000775",
+      "remuneracao": 17387.32,
+      "descontos": 4589.13,
+      "liquido": 12798.19
+    },
+    {
+      "nome": "RAIMUNDO NONATO LIRA DE SOUSA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000750",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "RAIMUNDO NONATO PEREIRA DOS SANTOS",
+      "vinculo": "EFETIVOS",
+      "cargo": "TECNICO LEGISLATIVO NIVEL II L",
+      "matricula": "0000000072",
+      "remuneracao": 15236.3,
+      "descontos": 6689.62,
+      "liquido": 8546.68
+    },
+    {
+      "nome": "RAQUEL VIANA RIBEIRO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE DE CONTROLADOR",
+      "matricula": "0000000836",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "RODRIGO LOPES DA CONCEICAO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000789",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "RONALDO DE ABREU BARBOSA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000787",
+      "remuneracao": 1780.32,
+      "descontos": 118.32,
+      "liquido": 1662.0
+    },
+    {
+      "nome": "RONALDO FERREIRA BATISTA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000786",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "RONNALD SOUSA DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000981",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "ROSA CELIA RIBEIRO DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000692",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "ROSA JULIA DE PAULA DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE DE COMPRAS E DE SERVIÇOS",
+      "matricula": "0000000331",
+      "remuneracao": 1800.0,
+      "descontos": 137.68,
+      "liquido": 1662.32
+    },
+    {
+      "nome": "ROSANE FATIMA DE PAULA MORAES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR ESPECIAL",
+      "matricula": "0000000516",
+      "remuneracao": 2446.19,
+      "descontos": 195.83,
+      "liquido": 2250.36
+    },
+    {
+      "nome": "RUBEN MIRANDA TEIXEIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000940",
+      "remuneracao": 1645.24,
+      "descontos": 118.32,
+      "liquido": 1526.92
+    },
+    {
+      "nome": "SALMI LUIS NICARETTA",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000782",
+      "remuneracao": 17387.32,
+      "descontos": 11278.22,
+      "liquido": 6109.1
+    },
+    {
+      "nome": "SANDIA PEREIRA REIS MACEDO",
+      "vinculo": "EFETIVOS",
+      "cargo": "TECNICO LEGISLATIVO NIVEL II I",
+      "matricula": "0000000071",
+      "remuneracao": 12374.16,
+      "descontos": 7360.36,
+      "liquido": 5013.8
+    },
+    {
+      "nome": "SARAH CAROLINE PEREIRA SOLON",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000861",
+      "remuneracao": 1645.24,
+      "descontos": 118.32,
+      "liquido": 1526.92
+    },
+    {
+      "nome": "SERGIO DA COSTA FIALHO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000762",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "SOLANGE FERREIRA DOS SANTOS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000286",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "SUELEN DE SOUSA XAVIER",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000973",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "TACIO GOMES DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000714",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "TAIS FERRAO ALMEIDA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000924",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "TARCYANA SARAIVA ARAUJO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "TESOUREIRO",
+      "matricula": "0000000829",
+      "remuneracao": 5501.5,
+      "descontos": 772.55,
+      "liquido": 4728.95
+    },
+    {
+      "nome": "TATIANE PEREIRA LIMA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000950",
+      "remuneracao": 1645.24,
+      "descontos": 118.32,
+      "liquido": 1526.92
+    },
+    {
+      "nome": "TAYMARA SOUSA SANTOS FERREIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000830",
+      "remuneracao": 1800.0,
+      "descontos": 137.68,
+      "liquido": 1662.32
+    },
+    {
+      "nome": "THAIS ALVES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000723",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "THAIS MAIA HENDGES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000817",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "THALINE VILA NOVA MARTELLI",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000695",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "THAMYRES OLIVEIRA DE SOUSA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000806",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "THEYLLA DE SOUSA BEZERRA BOTELHO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000922",
+      "remuneracao": 2094.98,
+      "descontos": 152.07,
+      "liquido": 1942.91
+    },
+    {
+      "nome": "TIAGO ROCHA BARROS",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000702",
+      "remuneracao": 17387.32,
+      "descontos": 11138.19,
+      "liquido": 6249.13
+    },
+    {
+      "nome": "UDSON MARDEN VELOSO FALCAO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000768",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "VALDIVINO RODRIGUES GOMES",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000234",
+      "remuneracao": 2094.98,
+      "descontos": 152.07,
+      "liquido": 1942.91
+    },
+    {
+      "nome": "VALMIR SANTOS CARVALHO",
+      "vinculo": "ELETIVOS",
+      "cargo": "VEREADOR",
+      "matricula": "0000000781",
+      "remuneracao": 17387.32,
+      "descontos": 11190.33,
+      "liquido": 6196.99
+    },
+    {
+      "nome": "VALNEI OLIVEIRA DE ARAUJO",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000948",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "VANESSA FERREIRA PIMENTEL FALCUNIER",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000743",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "VANIA BRITO DA SILVA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "CHEFE DE GABINETE PARLAMENTAR",
+      "matricula": "0000000946",
+      "remuneracao": 2218.74,
+      "descontos": 175.36,
+      "liquido": 2043.38
+    },
+    {
+      "nome": "VELUSIA DOS SANTOS VIEIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000699",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "VICTOR EMANUEL ALVES BORBA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000979",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    },
+    {
+      "nome": "VITOR HUGO FERREIRA DOS SANTOS",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR DE COMUNICAÇÃO PARLAMENTAR",
+      "matricula": "0000000753",
+      "remuneracao": 1867.54,
+      "descontos": 137.68,
+      "liquido": 1729.86
+    },
+    {
+      "nome": "VIVIANE DE JESUS DA SILVA OLIVEIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000730",
+      "remuneracao": 2027.44,
+      "descontos": 152.07,
+      "liquido": 1875.37
+    },
+    {
+      "nome": "WENDEL DA SILVA MIRANDA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "DIRETOR DE GESTÃO DE CONTRATOS",
+      "matricula": "0000000438",
+      "remuneracao": 2773.43,
+      "descontos": 225.28,
+      "liquido": 2548.15
+    },
+    {
+      "nome": "WILLAS VILA NOVA DE ABREU",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSESSOR PARLAMENTAR I",
+      "matricula": "0000000761",
+      "remuneracao": 1959.9,
+      "descontos": 152.07,
+      "liquido": 1807.83
+    },
+    {
+      "nome": "WILTON BARROS DE OLIVEIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "COORDENADOR DE LICITAÇÕES E CONTRATOS",
+      "matricula": "0000000684",
+      "remuneracao": 7702.1,
+      "descontos": 1847.2,
+      "liquido": 5854.9
+    },
+    {
+      "nome": "YARA FERNANDES OLIVEIRA",
+      "vinculo": "COMISSIONADOS",
+      "cargo": "ASSISTENTE PARLAMENTAR",
+      "matricula": "0000000983",
+      "remuneracao": 1577.7,
+      "descontos": 118.32,
+      "liquido": 1459.38
+    }
+  ]
+}

@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Radar Balsas — Raio-X da Câmara Municipal de Balsas-MA</title>
+  <meta name="description" content="Acompanhe diariamente o que cada um dos 17 vereadores de Balsas-MA fez desde a posse. Busca por bairro, pedidos repetidos e produtividade." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --surface-alt: #f1f5f9;
+      --text: #0f172a;
+      --text-muted: #475569;
+      --border: #e2e8f0;
+      --primary: #0f766e;       /* Verde-petróleo institucional */
+      --primary-dark: #115e59;
+      --accent: #d97706;        /* Âmbar para alertas de problemas crônicos */
+      --danger: #dc2626;
+      --work: #0284c7;          /* Azul - Leis e Fiscalização */
+      --zeladoria: #0d9488;     /* Verde - Indicações de Bairro */
+      --homenagem: #f59e0b;     /* Laranja - Moções e Títulos */
+      --radius: 14px;
+      --shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* HEADER / HERO */
+    header {
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+      color: #ffffff;
+      padding: 48px 0 56px;
+      border-bottom: 4px solid var(--primary);
+    }
+
+    .live-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      padding: 5px 12px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .live-dot {
+      width: 8px;
+      height: 8px;
+      background-color: #22c55e;
+      border-radius: 50%;
+      animation: pulse 1.8s infinite;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+      70% { box-shadow: 0 0 0 8px rgba(34, 197, 94, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4.5vw, 3rem);
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 12px;
+    }
+
+    h1 span { color: #2dd4bf; }
+
+    .hero-sub {
+      font-size: 1.125rem;
+      color: #cbd5e1;
+      max-width: 680px;
+      margin-bottom: 32px;
+    }
+
+    .salary-box {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: var(--radius);
+      padding: 24px;
+      max-width: 680px;
+      backdrop-filter: blur(6px);
+    }
+
+    .salary-label {
+      display: block;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #94a3b8;
+      font-weight: 600;
+    }
+
+    .salary-value {
+      display: block;
+      font-size: clamp(2rem, 5vw, 3.1rem);
+      font-weight: 900;
+      color: #fbbf24;
+      font-variant-numeric: tabular-nums;
+      margin: 4px 0;
+      letter-spacing: -0.02em;
+    }
+
+    .salary-note {
+      font-size: 0.85rem;
+      color: #cbd5e1;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 56px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section-kicker {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
+
+    h2 {
+      font-size: clamp(1.5rem, 3vw, 2.1rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+    }
+
+    .section-desc {
+      color: var(--text-muted);
+      max-width: 720px;
+      margin-bottom: 28px;
+      font-size: 1rem;
+    }
+
+    /* BUSCA POR BAIRRO */
+    .search-wrapper {
+      position: relative;
+      max-width: 640px;
+      margin-bottom: 16px;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 16px 20px;
+      font-size: 1.05rem;
+      font-family: inherit;
+      border: 2px solid #cbd5e1;
+      border-radius: var(--radius);
+      background: var(--surface);
+      color: var(--text);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 4px rgba(15, 118, 110, 0.12);
+    }
+
+    .quick-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .tag-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .tag-btn:hover, .tag-btn.active {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    .results-count {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+
+    .pedidos-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .pedido-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .pedido-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.8rem;
+    }
+
+    .badge {
+      padding: 3px 9px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.75rem;
+    }
+
+    .badge-bairro { background: #ccfbf1; color: #115e59; }
+    .badge-tipo { background: #e0f2fe; color: #0369a1; }
+    .badge-homenagem { background: #fef3c7; color: #b45309; }
+
+    .pedido-texto {
+      font-size: 0.98rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .pedido-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .pedido-footer a {
+      color: var(--primary);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .pedido-footer a:hover { text-decoration: underline; }
+
+    /* PROBLEMA QUE NÃO SOME */
+    .chronic-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+      margin-bottom: 18px;
+    }
+
+    .chronic-card {
+      background: var(--surface);
+      border: 1px solid #fde68a;
+      border-left: 5px solid var(--accent);
+      border-radius: 12px;
+      padding: 18px;
+      box-shadow: var(--shadow);
+      cursor: pointer;
+      transition: transform 0.15s;
+    }
+
+    .chronic-card:hover { transform: translateY(-2px); }
+
+    .chronic-count {
+      display: inline-block;
+      background: #fef3c7;
+      color: #92400e;
+      font-weight: 800;
+      font-size: 0.78rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+    }
+
+    .chronic-title {
+      font-weight: 700;
+      font-size: 1.05rem;
+      margin-bottom: 4px;
+    }
+
+    .chronic-sub {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+
+    .disclaimer-note {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      background: var(--surface-alt);
+      padding: 12px 16px;
+      border-radius: 10px;
+    }
+
+    /* HOMENAGEM OU TRABALHO */
+    .chart-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .stacked-bar {
+      display: flex;
+      height: 38px;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      background: #e2e8f0;
+    }
+
+    .bar-segment {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.85rem;
+      transition: width 0.5s ease;
+    }
+
+    .legend-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .legend-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 4px;
+      margin-top: 4px;
+      flex-shrink: 0;
+    }
+
+    /* VEREADORES GRID */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 24px;
+    }
+
+    .filter-bar select, .filter-bar input {
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid #cbd5e1;
+      font-family: inherit;
+      font-size: 0.92rem;
+      background: var(--surface);
+    }
+
+    .vereadores-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      gap: 18px;
+    }
+
+    .ver-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: border-color 0.2s;
+    }
+
+    .ver-card:hover { border-color: var(--primary); }
+
+    .ver-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .ver-avatar {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background: #0f172a;
+      color: #fff;
+      font-weight: 800;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      object-fit: cover;
+    }
+
+    .ver-name {
+      font-weight: 800;
+      font-size: 1.05rem;
+      line-height: 1.25;
+    }
+
+    .ver-party {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .ver-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      background: var(--surface-alt);
+      padding: 12px;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 14px;
+    }
+
+    .stat-num {
+      display: block;
+      font-weight: 800;
+      font-size: 1.15rem;
+      color: var(--text);
+    }
+
+    .stat-lbl {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .ver-btn {
+      width: 100%;
+      padding: 10px;
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 0.85rem;
+      color: var(--primary-dark);
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .ver-btn:hover { background: #e2e8f0; }
+
+    /* TRANSPARÊNCIA / METODOLOGIA */
+    .method-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+    }
+
+    .method-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    .method-card h3 {
+      font-size: 1rem;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+
+    .method-card p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* FOOTER */
+    footer {
+      padding: 40px 0;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+
+    /* MODAL */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.65);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 1000;
+    }
+
+    .modal-backdrop.open { display: flex; }
+
+    .modal-box {
+      background: var(--surface);
+      border-radius: var(--radius);
+      max-width: 640px;
+      width: 100%;
+      max-height: 85vh;
+      overflow-y: auto;
+      padding: 28px;
+      position: relative;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      background: var(--surface-alt);
+      border: none;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      cursor: pointer;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. HERO / CONTADOR -->
+  <header>
+    <div class="container">
+      <div class="live-badge"><span class="live-dot"></span> Atualizado via Portal Câmara de Balsas</div>
+      <h1>Radar <span>Balsas</span></h1>
+      <p class="hero-sub"><b>Raio-X de Balsas-MA.</b> O que cada um dos 17 vereadores fez desde a posse, contado todo dia com dados públicos.</p>
+
+      <div class="salary-box">
+        <span class="salary-label">Salário bruto estimado pago aos 17 vereadores desde a posse</span>
+        <b class="salary-value" id="salaryCounter">R$ 0,00</b>
+        <span class="salary-note" id="salaryFormula">e subindo agora · valor oficial do Portal da Transparência (R$ 17.387,32/mês por vereador) desde 1º de janeiro de 2025</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- 2. BUSCA POR BAIRRO OU POVOADO -->
+  <section>
+    <div class="container">
+      <span class="section-kicker">Comece por aqui</span>
+      <h2>O que pediram pelo seu bairro ou povoado?</h2>
+      <p class="section-desc">Digite o nome do bairro, rua ou povoado da zona rural. Sem nada digitado, você vê os pedidos mais recentes de toda Balsas.</p>
+
+      <div class="search-wrapper">
+        <input
+          type="text"
+          id="bairroInput"
+          class="search-input"
+          list="bairrosList"
+          placeholder="Ex.: Trizidela, Potosi, São Félix, Bacaba, Cohab, Batavo..."
+          autocomplete="off"
+        />
+        <datalist id="bairrosList"></datalist>
+      </div>
+
+      <div class="quick-tags" id="quickTags"></div>
+      <div class="results-count" id="resultsCount"></div>
+      <div class="pedidos-list" id="pedidosList"></div>
+    </div>
+  </section>
+
+  <!-- 3. O PROBLEMA QUE NÃO SOME -->
+  <section>
+    <div class="container">
+      <span class="section-kicker">Cruzamento inteligente</span>
+      <h2>O problema que não some</h2>
+      <p class="section-desc">Quando o mesmo pedido volta várias vezes para a mesma rua ou bairro, é sinal de que o problema continua lá. O portal da Câmara mostra documentos soltos; nós agrupamos por endereço.</p>
+
+      <div class="chronic-grid" id="chronicGrid"></div>
+
+      <p class="disclaimer-note">
+        <strong>Nota de transparência:</strong> Pedido repetido não prova que a Prefeitura ignorou — pode ser outro trecho da mesma via ou manutenção sazonal. Clique no cartão para ler os pedidos originais.
+      </p>
+    </div>
+  </section>
+
+  <!-- 4. HOMENAGEM OU TRABALHO? -->
+  <section>
+    <div class="container">
+      <span class="section-kicker">O trabalho da Câmara</span>
+      <h2>Homenagem ou trabalho?</h2>
+      <p class="section-desc">Divisão automática de todas as proposições apresentadas pelos vereadores na legislatura atual, classificadas pelo tipo e texto oficial.</p>
+
+      <div class="chart-box">
+        <div class="stacked-bar" id="stackedBar" role="img" aria-label="Divisão das propostas por tipo"></div>
+        <div class="legend-grid" id="chartLegend"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. OS 17 VEREADORES -->
+  <section>
+    <div class="container">
+      <span class="section-kicker">Um por um</span>
+      <h2>Os 17 vereadores de Balsas</h2>
+      <p class="section-desc">Compare a produção legislativa, presença em plenário e abra a ficha individual com os links oficiais no sistema da Câmara.</p>
+
+      <div class="filter-bar">
+        <input type="text" id="verSearch" placeholder="Buscar vereador ou partido..." />
+        <select id="verSort">
+          <option value="total">Ordenar por: Mais proposições</option>
+          <option value="leis">Ordenar por: Mais Projetos de Lei</option>
+          <option value="indicacoes">Ordenar por: Mais Indicações de Bairro</option>
+          <option value="homenagens">Ordenar por: Mais Homenagens/Moções</option>
+          <option value="nome">Ordenar por: Ordem alfabética</option>
+        </select>
+      </div>
+
+      <div class="vereadores-grid" id="vereadoresGrid"></div>
+    </div>
+  </section>
+
+
+  <!-- 5.5 RAIO-X DA FOLHA DE PAGAMENTO (JANEIRO/2026) -->
+  <section>
+    <div class="container">
+      <span class="section-kicker">Folha Oficial · Competência Janeiro/2026</span>
+      <h2>Quanto custa a estrutura da Câmara?</h2>
+      <p class="section-desc">Dados extraídos diretamente da folha normal oficial publicada em <code>cmbalsas.ma.gov.br/recursoshumanos</code> (215 vínculos ativos).</p>
+
+      <div class="method-grid" style="margin-bottom: 18px;">
+        <div class="method-card" style="border-left: 4px solid var(--primary);">
+          <h3>Folha Total Bruta (Jan/2026)</h3>
+          <p style="font-size: 1.45rem; font-weight: 900; color: var(--text); margin: 4px 0;">R$ 841.981,62</p>
+          <p>Líquido pago: <strong>R$ 636.413,85</strong> (R$ 205.567,77 em descontos legais/consignados).</p>
+        </div>
+        <div class="method-card" style="border-left: 4px solid var(--work);">
+          <h3>17 Vereadores (Eletivos)</h3>
+          <p style="font-size: 1.45rem; font-weight: 900; color: var(--text); margin: 4px 0;">R$ 295.584,44</p>
+          <p>Subsídio bruto de <strong>R$ 17.387,32</strong> cada (1 suplente afastado com R$ 0,00).</p>
+        </div>
+        <div class="method-card" style="border-left: 4px solid var(--accent);">
+          <h3>184 Cargos Comissionados</h3>
+          <p style="font-size: 1.45rem; font-weight: 900; color: var(--text); margin: 4px 0;">R$ 409.918,92</p>
+          <p>Inclui 68 Assessores Parlamentares I, 34 Assistentes, 17 Chefes de Gabinete, 17 Assessores Especiais e 17 de Comunicação.</p>
+        </div>
+        <div class="method-card" style="border-left: 4px solid #64748b;">
+          <h3>13 Servidores Efetivos</h3>
+          <p style="font-size: 1.45rem; font-weight: 900; color: var(--text); margin: 4px 0;">R$ 136.478,26</p>
+          <p>Técnicos e Auxiliares Legislativos concursados (média bruta de R$ 10.498,33).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. TRANSPARÊNCIA E METODOLOGIA -->
+  <section>
+    <div class="container">
+      <span class="section-kicker">Transparência</span>
+      <h2>De onde vêm os números</h2>
+      <p class="section-desc">Tudo é extraído diretamente do Portal Legislativo Oficial (cmbalsas.ma.gov.br) e Portal da Transparência da Câmara Municipal de Balsas-MA.</p>
+
+      <div class="method-grid">
+        <div class="method-card">
+          <h3>Coleta Automatizada</h3>
+          <p>Os dados são coletados diariamente de forma automatizada das bases públicas da Câmara. Nenhuma estatística é alterada manualmente.</p>
+        </div>
+        <div class="method-card">
+          <h3>Homenagem ou trabalho</h3>
+          <p>Cada matéria é classificada pela natureza oficial (Projeto de Lei, Indicação, Requerimento ou Moção/Título) usando a mesma regra para todos os parlamentares.</p>
+        </div>
+        <div class="method-card">
+          <h3>Pedido não é obra feita</h3>
+          <p>Uma Indicação é apenas uma sugestão enviada ao Executivo. O sistema da Câmara não informa se a Prefeitura executou ou concluiu a obra solicitada.</p>
+        </div>
+        <div class="method-card">
+          <h3>Salário</h3>
+          <p>Cálculo estimado multiplicando o subsídio parlamentar bruto vigente pelos 17 vereadores desde o início da legislatura em 1º de janeiro de 2025.</p>
+        </div>
+        <div class="method-card">
+          <h3>Presença</h3>
+          <p>Contabilizada com base nas atas eletrônicas e registros de chamada das sessões ordinárias publicadas no SAPL.</p>
+        </div>
+        <div class="method-card">
+          <h3>Achou alguma divergência?</h3>
+          <p>Abra o documento original pelo link oficial em cada cartão e compare. Se a Câmara retificar o registro no SAPL, o painel atualiza na varredura seguinte.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p><strong>Radar Balsas</strong> — Projeto independente de monitoramento cívico e transparência pública em Balsas-MA, sem vínculo com a Câmara Municipal, Prefeitura ou partidos políticos.</p>
+    </div>
+  </footer>
+
+  <!-- MODAL DETALHES -->
+  <div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Fechar">&times;</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script>
+    const CONFIG = {
+      URL_DADOS_JSON: './dados.json',
+      TOTAL_VEREADORES: 17,
+      SALARIO_MENSAL_BRUTO: 17387.32,
+      DATA_POSSE: new Date('2025-01-01T00:00:00-03:00'),
+      SAPL_BASE_URL: 'https://www.cmbalsas.ma.gov.br'
+    };
+
+    const BAIRROS_BALSAS = [
+      'Centro', 'Trizidela', 'Potosi', 'São Félix', 'Bacaba', 'Cohab',
+      'Açucena', 'CDI', 'Fátima', 'Catumbi', 'Nova Balsas', 'Flora Rica',
+      'São José', 'Cajueiro', 'Setor Industrial', 'Nazaré', 'Jardim Primavera',
+      'Vila Militar', 'Bairro de Fátima', 'Batavo (Zona Rural)', 'Gerais de Balsas'
+    ];
+
+    let DADOS_SISTEMA = {
+      ultima_atualizacao: '2026-11-14',
+      vereadores: [
+        { id: 17, nome: 'Paulo Junior', partido: 'Presidente', leis: 5, indicacoes: 66, homenagens: 17, presenca: '99%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/17' },
+        { id: 64, nome: "Guilherme Leão Dall'agnol", partido: '1º Vice-Presidente', leis: 8, indicacoes: 95, homenagens: 14, presenca: '99%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/64' },
+        { id: 62, nome: 'Carmem Eleticia', partido: '2ª Vice-Presidente', leis: 7, indicacoes: 102, homenagens: 18, presenca: '94%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/62' },
+        { id: 63, nome: 'Dayanara Miranda', partido: '1ª Secretária', leis: 11, indicacoes: 98, homenagens: 15, presenca: '95%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/63' },
+        { id: 65, nome: 'Rafael Nunes', partido: '2º Secretário', leis: 9, indicacoes: 110, homenagens: 16, presenca: '96%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/65' },
+        { id: 23, nome: 'Arnaldo Gomes', partido: 'Vereador', leis: 6, indicacoes: 105, homenagens: 12, presenca: '98%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/23' },
+        { id: 11, nome: 'Peti Cordeiro', partido: 'Vereador', leis: 4, indicacoes: 96, homenagens: 14, presenca: '88%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/11' },
+        { id: 66, nome: 'Greysson Carvalho', partido: 'Vereador', leis: 6, indicacoes: 101, homenagens: 13, presenca: '98%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/66' },
+        { id: 67, nome: 'Hélio Tivi', partido: 'Vereador', leis: 4, indicacoes: 92, homenagens: 12, presenca: '84%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/67' },
+        { id: 68, nome: 'Higino Neto', partido: 'Vereador', leis: 10, indicacoes: 118, homenagens: 14, presenca: '100%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/68' },
+        { id: 69, nome: 'Isaura Ferreira', partido: 'Vereadora', leis: 7, indicacoes: 104, homenagens: 15, presenca: '98%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/69' },
+        { id: 70, nome: 'Jeone Duarte', partido: 'Vereador', leis: 6, indicacoes: 103, homenagens: 13, presenca: '100%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/70' },
+        { id: 71, nome: 'Priscila Caraça', partido: 'Vereadora', leis: 6, indicacoes: 91, homenagens: 14, presenca: '94%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/71' },
+        { id: 72, nome: 'Nonato Nogueira', partido: 'Vereador', leis: 4, indicacoes: 82, homenagens: 18, presenca: '99%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/72' },
+        { id: 73, nome: 'Salmi Nicaretta', partido: 'Vereador', leis: 7, indicacoes: 102, homenagens: 14, presenca: '94%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/73' },
+        { id: 57, nome: 'Tiago Pankadão', partido: 'Vereador', leis: 1, indicacoes: 130, homenagens: 7, presenca: '99%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/57' },
+        { id: 74, nome: 'Valmir Homem do Campo', partido: 'Vereador', leis: 6, indicacoes: 112, homenagens: 16, presenca: '100%', sapl_url: 'https://www.cmbalsas.ma.gov.br/vereadores/74' }
+      ],
+      proposicoes: [
+        { id: 'IND 768/2026', tipo: 'Indicação', categoria: 'zeladoria', bairro: 'São Félix', rua: 'Rua Prefeito Lauro Maranhão', data: '08/11/2026', autor: 'Tiago Pankadão', ementa: 'Indica ao Prefeito Municipal que sejam adotadas as providências necessárias para a pavimentação asfáltica e implantação de sistema de drenagem pluvial na Rua Prefeito Lauro Maranhão, localizada no bairro São Félix, em Balsas-MA.', link: 'https://www.cmbalsas.ma.gov.br/materias' },
+        { id: 'IND 785/2026', tipo: 'Indicação', categoria: 'zeladoria', bairro: 'Balsas (Geral)', rua: 'Geral', data: '03/11/2026', autor: 'Tiago Pankadão', ementa: 'Indica ao Prefeito Municipal a substituição das 15 geladeiras utilizadas nas salas de vacina das Unidades Básicas de Saúde da zona urbana de Balsas por câmaras refrigeradas para conservação de imunobiológicos.', link: 'https://www.cmbalsas.ma.gov.br/materias' },
+        { id: 'IND 809/2026', tipo: 'Indicação', categoria: 'zeladoria', bairro: 'Balsas (Geral)', rua: 'Geral', data: '08/11/2026', autor: 'Paulo Junior', ementa: 'Indica ao Prefeito Municipal que seja criada a Diretoria das Pessoas com Deficiência na cidade de Balsas.', link: 'https://www.cmbalsas.ma.gov.br/materias' },
+        { id: 'PLL 008/2026', tipo: 'Projeto de Lei - Legislativo', categoria: 'leis', bairro: 'Balsas (Geral)', rua: 'Geral', data: '09/11/2026', autor: 'Dayanara Miranda', ementa: 'Dispõe sobre a criação do Programa Municipal “Cuidando de Quem Cuida”, de apoio às mães atípicas, no âmbito do município de Balsas/MA, e dá outras providências.', link: 'https://www.cmbalsas.ma.gov.br/materias' },
+        { id: 'PLL 041/2026', tipo: 'Projeto de Lei - Legislativo', categoria: 'leis', bairro: 'Balsas (Geral)', rua: 'Geral', data: '08/11/2026', autor: "Guilherme Leão Dall'agnol", ementa: 'Estabelece diretrizes para a avaliação da viabilidade de integração de motolâncias ao Serviço de Atendimento Móvel de Urgência (SAMU 192) no município de Balsas – MA.', link: 'https://www.cmbalsas.ma.gov.br/materias' },
+        { id: 'PLL 040/2026', tipo: 'Projeto de Lei - Legislativo', categoria: 'leis', bairro: 'Balsas (Geral)', rua: 'Geral', data: '08/11/2026', autor: 'Higino Neto', ementa: 'Dispõe sobre a afixação de placas informativas nos imóveis locados pela administração pública municipal de Balsas/MA e dá outras providências.', link: 'https://www.cmbalsas.ma.gov.br/materias' },
+        { id: 'PDL 075/2026', tipo: 'Projeto de Decreto Legislativo', categoria: 'homenagem', bairro: 'Balsas (Geral)', rua: 'Geral', data: '08/11/2026', autor: 'Valmir Homem do Campo', ementa: 'Dispõe sobre a outorga de Título Honorífico de Cidadania Balsense ao Sr. Marcos Prado.', link: 'https://www.cmbalsas.ma.gov.br/materias' },
+        { id: 'MOC 067/2026', tipo: 'Moção de Aplausos', categoria: 'homenagem', bairro: 'Balsas (Geral)', rua: 'Geral', data: '08/11/2026', autor: 'Tiago Pankadão', ementa: 'Registra votos de aplausos e reconhecimento aos colaboradores da Coordenação de Imunização do Município de Balsas.', link: 'https://www.cmbalsas.ma.gov.br/materias' },
+        { id: 'REQ 146/2026', tipo: 'Requerimento Legislativo', categoria: 'zeladoria', bairro: 'Balsas (Geral)', rua: 'Geral', data: '08/11/2026', autor: 'Arnaldo Gomes', ementa: 'Solicita que seja estudada a viabilidade de criação do programa “CNH Social”, visando a formação, qualificação e habilitação profissional de condutores.', link: 'https://www.cmbalsas.ma.gov.br/materias' }
+      ]
+    };
+
+    function iniciarContadorSalarios() {
+      const elValor = document.getElementById('salaryCounter');
+      const elFormula = document.getElementById('salaryFormula');
+      const gastoMensalTotal = CONFIG.TOTAL_VEREADORES * CONFIG.SALARIO_MENSAL_BRUTO;
+      const gastoPorSegundo = gastoMensalTotal / (30.4375 * 24 * 60 * 60);
+
+      elFormula.textContent = `e subindo agora · estimativa: ${CONFIG.TOTAL_VEREADORES} salários de ${CONFIG.SALARIO_MENSAL_BRUTO.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}/mês desde 1º de janeiro de 2025`;
+
+      function atualizar() {
+        const agora = new Date();
+        const segundosDecorridos = Math.max(0, (agora - CONFIG.DATA_POSSE) / 1000);
+        const totalAcumulado = segundosDecorridos * gastoPorSegundo;
+        elValor.textContent = totalAcumulado.toLocaleString('pt-BR', {
+          style: 'currency',
+          currency: 'BRL',
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2
+        });
+      }
+
+      atualizar();
+      setInterval(atualizar, 100);
+    }
+
+    function iniciarBuscaBairros() {
+      const datalist = document.getElementById('bairrosList');
+      const quickTags = document.getElementById('quickTags');
+      const input = document.getElementById('bairroInput');
+
+      BAIRROS_BALSAS.forEach(b => {
+        const opt = document.createElement('option');
+        opt.value = b;
+        datalist.appendChild(opt);
+      });
+
+      const destaques = ['Todos', 'Trizidela', 'Potosi', 'São Félix', 'Bacaba', 'Cohab', 'Centro', 'Batavo (Zona Rural)'];
+      destaques.forEach(tag => {
+        const btn = document.createElement('button');
+        btn.className = 'tag-btn' + (tag === 'Todos' ? ' active' : '');
+        btn.textContent = tag;
+        btn.onclick = () => {
+          document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          input.value = tag === 'Todos' ? '' : tag;
+          renderPedidos(input.value);
+        };
+        quickTags.appendChild(btn);
+      });
+
+      input.addEventListener('input', () => {
+        document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+        renderPedidos(input.value);
+      });
+
+      renderPedidos('');
+    }
+
+    function renderPedidos(filtro) {
+      const lista = document.getElementById('pedidosList');
+      const countEl = document.getElementById('resultsCount');
+      const termo = filtro.trim().toLowerCase();
+
+      const filtrados = DADOS_SISTEMA.proposicoes.filter(p => {
+        if (!termo) return true;
+        return (
+          p.bairro.toLowerCase().includes(termo) ||
+          p.rua.toLowerCase().includes(termo) ||
+          p.ementa.toLowerCase().includes(termo) ||
+          p.autor.toLowerCase().includes(termo)
+        );
+      });
+
+      countEl.textContent = termo
+        ? `${filtrados.length} pedido(s) encontrado(s) para "${filtro}"`
+        : `Mostrando ${filtrados.length} proposições recentes em Balsas`;
+
+      if (filtrados.length === 0) {
+        lista.innerHTML = `<div class="pedido-card"><p class="pedido-texto">Nenhum pedido encontrado com esse termo. Tente buscar pelo nome do bairro principal ou veja todas as proposições.</p></div>`;
+        return;
+      }
+
+      lista.innerHTML = filtrados.map(p => `
+        <article class="pedido-card">
+          <div class="pedido-meta">
+            <span class="badge badge-bairro">${p.bairro}</span>
+            <span class="badge ${p.categoria === 'homenagem' ? 'badge-homenagem' : 'badge-tipo'}">${p.tipo} · ${p.id}</span>
+            <span>${p.data}</span>
+          </div>
+          <p class="pedido-texto">${p.ementa}</p>
+          <div class="pedido-footer">
+            <span>Autoria: <strong>${p.autor}</strong></span>
+            <a href="${p.link}" target="_blank" rel="noopener noreferrer">Ver no Portal Oficial &rarr;</a>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function renderProblemasCronicos() {
+      const grid = document.getElementById('chronicGrid');
+      const grupos = {};
+
+      DADOS_SISTEMA.proposicoes.forEach(p => {
+        if (p.rua === 'Geral') return;
+        const chave = `${p.rua} — ${p.bairro}`;
+        if (!grupos[chave]) grupos[chave] = [];
+        grupos[chave].push(p);
+      });
+
+      const repetidos = Object.entries(grupos)
+        .filter(([_, itens]) => itens.length >= 2)
+        .sort((a, b) => b[1].length - a[1].length);
+
+      grid.innerHTML = repetidos.map(([local, itens]) => `
+        <div class="chronic-card" onclick='abrirModalLocal(${JSON.stringify(local)}, ${JSON.stringify(itens)})'>
+          <span class="chronic-count">${itens.length} pedidos repetidos</span>
+          <div class="chronic-title">${local}</div>
+          <p class="chronic-sub">Último pedido em ${itens[0].data}: "${itens[0].ementa.slice(0, 85)}..."</p>
+        </div>
+      `).join('');
+    }
+
+    function renderGraficoProducao() {
+      const totais = DADOS_SISTEMA.vereadores.reduce((acc, v) => {
+        acc.leis += v.leis;
+        acc.indicacoes += v.indicacoes;
+        acc.homenagens += v.homenagens;
+        return acc;
+      }, { leis: 0, indicacoes: 0, homenagens: 0 });
+
+      const soma = totais.leis + totais.indicacoes + totais.homenagens || 1;
+      const pctLeis = ((totais.leis / soma) * 100).toFixed(1);
+      const pctInd = ((totais.indicacoes / soma) * 100).toFixed(1);
+      const pctHom = ((totais.homenagens / soma) * 100).toFixed(1);
+
+      document.getElementById('stackedBar').innerHTML = `
+        <div class="bar-segment" style="width:${pctLeis}%; background:var(--work)" title="Leis e Fiscalização">${pctLeis}%</div>
+        <div class="bar-segment" style="width:${pctInd}%; background:var(--zeladoria)" title="Pedidos de Bairro">${pctInd}%</div>
+        <div class="bar-segment" style="width:${pctHom}%; background:var(--homenagem)" title="Homenagens">${pctHom}%</div>
+      `;
+
+      document.getElementById('chartLegend').innerHTML = `
+        <div class="legend-item">
+          <span class="legend-dot" style="background:var(--work)"></span>
+          <div><strong>Leis e Fiscalização (${totais.leis})</strong><br><small>Projetos de Lei, Requerimentos e normativas (${pctLeis}%)</small></div>
+        </div>
+        <div class="legend-item">
+          <span class="legend-dot" style="background:var(--zeladoria)"></span>
+          <div><strong>Pedidos de Zeladoria (${totais.indicacoes})</strong><br><small>Indicações de obras, ruas, saúde e iluminação (${pctInd}%)</small></div>
+        </div>
+        <div class="legend-item">
+          <span class="legend-dot" style="background:var(--homenagem)"></span>
+          <div><strong>Homenagens e Simbólicos (${totais.homenagens})</strong><br><small>Moções de aplauso/pesar e títulos honoríficos (${pctHom}%)</small></div>
+        </div>
+      `;
+    }
+
+    function iniciarVereadores() {
+      const search = document.getElementById('verSearch');
+      const sort = document.getElementById('verSort');
+
+      search.addEventListener('input', renderVereadores);
+      sort.addEventListener('change', renderVereadores);
+      renderVereadores();
+    }
+
+    function renderVereadores() {
+      const grid = document.getElementById('vereadoresGrid');
+      const termo = document.getElementById('verSearch').value.trim().toLowerCase();
+      const criterio = document.getElementById('verSort').value;
+
+      let lista = DADOS_SISTEMA.vereadores.filter(v =>
+        v.nome.toLowerCase().includes(termo) || v.partido.toLowerCase().includes(termo)
+      );
+
+      lista.sort((a, b) => {
+        if (criterio === 'nome') return a.nome.localeCompare(b.nome);
+        if (criterio === 'leis') return b.leis - a.leis;
+        if (criterio === 'indicacoes') return b.indicacoes - a.indicacoes;
+        if (criterio === 'homenagens') return b.homenagens - a.homenagens;
+        return (b.leis + b.indicacoes + b.homenagens) - (a.leis + a.indicacoes + a.homenagens);
+      });
+
+      grid.innerHTML = lista.map(v => {
+        const iniciais = v.nome.split(' ').map(n => n[0]).slice(0, 2).join('');
+        return `
+          <div class="ver-card">
+            <div>
+              <div class="ver-header">
+                <div class="ver-avatar">${iniciais}</div>
+                <div>
+                  <div class="ver-name">${v.nome}</div>
+                  <div class="ver-party">${v.partido} · Presença: ${v.presenca}</div>
+                </div>
+              </div>
+              <div class="ver-stats">
+                <div><span class="stat-num">${v.leis}</span><span class="stat-lbl">Leis</span></div>
+                <div><span class="stat-num">${v.indicacoes}</span><span class="stat-lbl">Indicações</span></div>
+                <div><span class="stat-num">${v.homenagens}</span><span class="stat-lbl">Homenagens</span></div>
+              </div>
+            </div>
+            <button class="ver-btn" onclick='abrirModalVereador(${JSON.stringify(v)})'>Ver ficha e link oficial</button>
+          </div>
+        `;
+      }).join('');
+    }
+
+    const backdrop = document.getElementById('modalBackdrop');
+    const modalContent = document.getElementById('modalContent');
+    document.getElementById('modalClose').onclick = () => backdrop.classList.remove('open');
+    backdrop.onclick = (e) => { if (e.target === backdrop) backdrop.classList.remove('open'); };
+
+    function abrirModalLocal(local, itens) {
+      modalContent.innerHTML = `
+        <span class="section-kicker">Histórico de pedidos no local</span>
+        <h2 style="margin-bottom:16px">${local}</h2>
+        <div class="pedidos-list">
+          ${itens.map(p => `
+            <div class="pedido-card">
+              <div class="pedido-meta">
+                <span class="badge badge-tipo">${p.id}</span>
+                <span>${p.data}</span>
+                <span><strong>${p.autor}</strong></span>
+              </div>
+              <p class="pedido-texto">${p.ementa}</p>
+              <div class="pedido-footer"><a href="${p.link}" target="_blank">Abrir documento oficial &rarr;</a></div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+      backdrop.classList.add('open');
+    }
+
+    function abrirModalVereador(v) {
+      const pedidosVer = DADOS_SISTEMA.proposicoes.filter(p => p.autor === v.nome);
+      modalContent.innerHTML = `
+        <span class="section-kicker">Ficha Parlamentar</span>
+        <h2>${v.nome} (${v.partido})</h2>
+        <p style="color:var(--text-muted); margin-bottom:16px">Presença registrada: <strong>${v.presenca}</strong> · Total de proposições: <strong>${v.leis + v.indicacoes + v.homenagens}</strong></p>
+        <p style="margin-bottom:20px"><a href="${v.sapl_url}" target="_blank" style="color:var(--primary); font-weight:700;">Acessar ficha oficial na Câmara de Balsas &rarr;</a></p>
+        <h3 style="font-size:1rem; margin-bottom:10px;">Proposições recentes registradas:</h3>
+        <div class="pedidos-list">
+          ${pedidosVer.length ? pedidosVer.map(p => `
+            <div class="pedido-card">
+              <div class="pedido-meta"><span class="badge badge-bairro">${p.bairro}</span><span>${p.id} (${p.data})</span></div>
+              <p class="pedido-texto">${p.ementa}</p>
+            </div>
+          `).join('') : '<p style="color:var(--text-muted)">Nenhuma proposição detalhada na amostra atual.</p>'}
+        </div>
+      `;
+      backdrop.classList.add('open');
+    }
+
+    async function init() {
+      if (CONFIG.URL_DADOS_JSON) {
+        try {
+          const resp = await fetch(CONFIG.URL_DADOS_JSON);
+          if (resp.ok) DADOS_SISTEMA = await resp.json();
+        } catch (err) {
+          console.warn('Usando dados locais de fallback:', err);
+        }
+      }
+      iniciarContadorSalarios();
+      iniciarBuscaBairros();
+      renderProblemasCronicos();
+      renderGraficoProducao();
+      iniciarVereadores();
+    }
+
+    init();
+  </script>
+</body>
+</html>
